@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Lora', serif;
+    text-align: center;
+  }
+#weathericon{
+    font-size: 5em;
+}
+  .box {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(251, 242, 133);
+    background: radial-gradient(
+
+      rgba(165, 237, 235, 0.92) 0%,
+      rgba(184, 228, 219, 0.841) 35%,
+      rgb(207, 226, 232) 100%
+    );
+  }
+  .temp {
+    display: flex; 
+    align-items: center;
+    
+    margin: 55px 0;
+    font-size: 5rem;
+    font-style: italic;
+  }
+  #time {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 1.5rem;
+  }
+  #location {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+  }
+  .tempmin_max {
+    display: flex; 
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color:rgb(111, 102, 118);
+  }
